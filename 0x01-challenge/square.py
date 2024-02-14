@@ -7,11 +7,11 @@ class Square:
 
     def area_of_my_square(self):
         """Calculate the area of the square."""
-        return self.width * self.width
+        return self.width * self.height
 
     def perimeter_of_my_square(self):
         """Calculate the perimeter of the square."""
-        return 4 * self.width
+        return 2 * (self.width + self.height)
 
     def __str__(self):
         """String representation of the square."""
@@ -22,3 +22,4 @@ if __name__ == "__main__":
     print(s)
     print("Area:", s.area_of_my_square())
     print("Perimeter:", s.perimeter_of_my_square())
+
